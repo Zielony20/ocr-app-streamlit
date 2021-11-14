@@ -29,7 +29,7 @@ def save_uploadedfile(uploadedfile):
          f.write(uploadedfile.getbuffer())
      return st.success("Saved File:{} on Server".format(uploadedfile.name))
 
-translator = Translator(to_lang="la")
+#translator = (to_lang="la")
 
 
 image = Image.open("cerowanie.jpg")
@@ -40,10 +40,10 @@ st.title('HIPER TŁUMACZ')
 
 
 s = st.text_input('Wpisz tutaj swoje słówko')
-translation = translator.translate(s)
+#translation = translator.translate(s)
 
 
-st.text(translation)
+#st.text(translation)
 
 
 upload_pdf = st.file_uploader("put PDF file")
