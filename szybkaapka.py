@@ -2,7 +2,6 @@ import streamlit as st
 from PIL import Image
 import base64
 import requests
-from translate import Translator
 import os
 import base64
 import ocrmypdf 
