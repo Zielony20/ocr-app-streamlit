@@ -3,3 +3,9 @@ tesseract-ocr
 tesseract-ocr-spa
 tesseract-ocr-eng
 tesseract-ocr-pol
+tesseract-ocr-deu
+tesseract-ocr-por
+tesseract-ocr-lat
+tesseract-ocr-fra
+tesseract-ocr-ita
+

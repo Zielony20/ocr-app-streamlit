@@ -18,7 +18,7 @@ def get_binary_file_downloader_html(bin_file, file_label='File'):
 
 def MyOcr(file_path=pwd+'/input.pdf', save_path=pwd+'/output.pdf', lang='pol'):
     
-    ocrmypdf.ocr(input_file=file_path, output_file=save_path,language=lang, rotate_pages=True, remove_background=True, deskew=True, force_ocr=True)
+    ocrmypdf.ocr(input_file=file_path, output_file=save_path,language=lang, rotate_pages=True, deskew=True, force_ocr=True)
    
     return True;
 
