@@ -1,5 +1,5 @@
 streamlit==1.1.0
 translator==0.0.9
-ocrmypdf==12.7.2
+ocrmypdf==13.7.0
 pytesseract==0.3.10
 Pillow>=8.4.0
